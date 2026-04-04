@@ -35,9 +35,10 @@
 	margin-bottom: 1rem;  				/* 16px space between paragraphs */
   }
 .column {
-	position:center;
 	width:100%;
-	float:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 	box-sizing:border-box;
 }
 /* For devices larger than 400px */
@@ -191,6 +192,7 @@ a:hover {
 	align-items:center;
 	justify-content:center;
 	width:22rem;             	/* 352px - wider for single-line text */
+ 	max-width:90%;
  	min-height:3rem;                /* 48px */
    	padding:0.75rem 1rem;         	/* 12px ; 16px */
    	font-size:1.125rem;           	/* 18px */
